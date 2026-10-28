@@ -53,7 +53,7 @@ export default function ListingCard({ listing }) {
       </Link>
 
       <div className="flex flex-1 flex-col p-5">
-        <p className="truncate text-xs font-medium text-neutral-500">Sold by {authorName}</p>
+        
         <Link href={`/browse/${id}`}>
           <h3 className="mt-1 line-clamp-2 text-lg font-bold leading-snug">{title}</h3>
         </Link>

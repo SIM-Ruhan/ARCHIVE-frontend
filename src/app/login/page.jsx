@@ -17,7 +17,8 @@ import {
 import Link from "next/link";
 import Logo from "@/components/Logo";
 import { useRouter, useSearchParams } from "next/navigation";
-import { toast } from "react-toastify";
+import toast from "react-hot-toast";
+
 
 function LogInForm() {
   const router = useRouter();

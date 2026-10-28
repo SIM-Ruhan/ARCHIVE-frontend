@@ -17,8 +17,8 @@ import {
   TextField,
 } from "@heroui/react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { toast } from "react-toastify";
 import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
 
 // 1. Move all the logic into a sub-component
 function SignUpForm() {
